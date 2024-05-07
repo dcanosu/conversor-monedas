@@ -17,7 +17,7 @@ public class Menu {
                 case 1:
                     System.out.println("Convertidor de dolar a peso argentino");
                     ConversorDeMonedas conversor = new ConversorDeMonedas();
-                    conversor.convertirDolarAPesoArgentino(opcion, opcion);
+                    conversor.convertirDolarAPesoColombiano();
                     break;
                 case 7:
                     System.out.println("Saliendo del programa...");
@@ -57,21 +57,4 @@ public class Menu {
                 """);
         System.out.println(astericos);
     }
-
-//     public int obtenerOpcionValida() {
-//         int opcion;
-//         do {
-//             System.out.println("Ingrese una opción: ");
-//             while (!scanner.hasNextInt()) {
-//                 System.out.println("Opción inválida, por favor intente nuevamente.");
-//                 scanner.next(); // Limpiar el buffer
-//             }
-//             opcion = scanner.nextInt();
-//             if (opcion < 1 || opcion > 7) {
-//                 System.out.println("Opción inválida, por favor intente nuevamente.");
-//             }
-//         } while (opcion < 1 || opcion > 7);
-//         scanner.nextLine(); // Limpiar el buffer
-//         return opcion;
-//     }
 }
