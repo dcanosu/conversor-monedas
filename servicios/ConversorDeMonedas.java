@@ -10,6 +10,8 @@ import com.google.gson.JsonObject;
 
 public class ConversorDeMonedas {
 
+
+    //https://wise.com/es/currency-converter/usd-to-cop-rate?amount=50
     private static final String API_KEY = "6b039e45d888194efc48ffc4"; // Obtén tu propia clave de la API ExchangeRate-API
 
     public void convertirDolarARealBrasileno() {
