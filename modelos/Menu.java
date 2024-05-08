@@ -15,9 +15,14 @@ public class Menu {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("Convertidor de dolar a peso argentino");
+                    System.out.println("Convertidor de dolar a peso brasileño");
                     ConversorDeMonedas conversor = new ConversorDeMonedas();
-                    conversor.convertirDolarAPesoColombiano();
+                    conversor.convertirDolarARealBrasileno();
+                    break;
+                case 2:
+                    System.out.println("Convertidor de dolar a peso Colombiano");
+                    ConversorDeMonedas conversorCop = new ConversorDeMonedas();
+                    conversorCop.convertirDolarAPesoColombiano();
                     break;
                 case 7:
                     System.out.println("Saliendo del programa...");
