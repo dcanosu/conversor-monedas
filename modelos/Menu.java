@@ -2,8 +2,6 @@ package modelos;
 
 import java.util.Scanner;
 
-import servicios.ConversorDeMonedas;
-
 
 public class Menu {
     public void mostrarMenu(){
