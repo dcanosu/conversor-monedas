@@ -46,10 +46,14 @@ public class MenuCompleto {
                 
                 Por favor elija la opción deseada: 
 
-                1). | Dólar --> Real brasileño  |
-                2). | Dólar --> Peso colombiano |
-                3). | Salir                      |
+                1). | Dolar           --> Peso argentino  |
+                2). | Peso argentino  --> Dolar           |
+                3). | Dolar           --> Real brasileño  |
+                4). | Real brasileño  --> Dolar           |
+                5). | Dolar           --> Peso colombiano |
+                6). | Peso colombiano --> Dolar           |
 
+                7). | Salir                               |
                 """);
         System.out.println(asteriscos);
     }
