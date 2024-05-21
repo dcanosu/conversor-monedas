@@ -7,7 +7,7 @@ public class Menus {
             ║     BIENVENIDO AL CONVERSOR DE MONEDAS     ║
             ╠════════════════════════════════════════════╣
             ║                                            ║
-            ║ Por favor elija la opción deseada [1-7]    ║
+            ║ Por favor elija la opción deseada [1-2]    ║
             ║                                            ║            
             ║ 1. Realizar una conversión de divisas      ║                                        
             ║ 2. Salir                                   ║
